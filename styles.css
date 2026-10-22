@@ -20,4 +20,26 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  padding: 0 24px;
+}
+
+.logo {
+  width: 160px;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+.nav__link {
+  text-decoration: none;
+  margin-left: 16px;
+  font-size: 20px;
+  color: #7342d6;
+  font-weight: bold;
+  padding: 8px;
 }
