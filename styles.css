@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* Default styling */
 * {
@@ -69,7 +69,7 @@ li {
 }
 
 #landing {
-  background-color: rgba(115,66,214,0.1);
+  background-color: rgba(115, 66, 214, 0.1);
 }
 
 header {
@@ -91,7 +91,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 h1 {
@@ -126,4 +125,13 @@ button:active {
 
 .header__img--wrapper {
   padding: 20px;
+}
+
+.container {
+  padding: 56px 0;
+}
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
